@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Deli</string>
+    <string name="deli">Deli</string>
+    <string name="privetstvie">Добро пожаловать</string>
+    <string name="text2">Заказывая в Deli вы экономите ваше время, \nсилы и деньги.</string>
+    <string name="btn">Давай начнем</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title=""
+        android:id="@+id/home"
+        android:icon="@drawable/vuesax" />
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/heart"
+        android:title="" />
+    <item
+        android:icon="@drawable/bag"
+        android:id="@+id/trash"
+        android:title="" />
+    <item
+        android:icon="@drawable/user_square"
+        android:id="@+id/profile"
+        android:title="" />
+</menu>

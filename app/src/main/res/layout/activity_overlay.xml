@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/line"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".OverlayActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Выберите, чтобы продолжить"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/google_btn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="37dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/google_vector"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:text="Google"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            app:strokeColor="#9E9E9F"
+            android:fontFamily="@font/montserrat_light"
+            app:strokeWidth="2px" />
+
+        <Button
+            android:id="@+id/facebook_btn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="37dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/faceboook_vector"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:text="Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            app:strokeColor="#9E9E9F"
+            android:fontFamily="@font/montserrat_light"
+            app:strokeWidth="2px" />
+
+        <Button
+            android:id="@+id/email_button"
+            android:fontFamily="@font/montserrat_light"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="37dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/email_vector"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:text="Email"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            app:strokeColor="#9E9E9F"
+            app:strokeWidth="2px" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="17dp"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:text="Продолжая, вы автомотически принимаете такие документы:\n Приложения и условия, Политикой конфиденциальности и \nПолитика использования файлов cookie\n\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

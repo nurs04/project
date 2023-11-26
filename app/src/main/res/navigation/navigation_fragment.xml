@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragment"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.deli.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_fav"
+            app:destination="@id/fav" />
+        <action
+            android:id="@+id/action_home_to_trash"
+            app:destination="@id/trash" />
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/fav"
+        android:name="com.example.deli.Fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_fav_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.deli.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/trash"
+        android:name="com.example.deli.Fragments.TrashFragment"
+        android:label="fragment_trash"
+        tools:layout="@layout/fragment_trash" >
+        <action
+            android:id="@+id/action_trash_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/advertisementFragment"
+        android:name="com.example.deli.Fragments.AdvertisementFragment"
+        android:label="fragment_advertisement"
+        tools:layout="@layout/fragment_advertisement" >
+    </fragment>
+</navigation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/gifKa"
+        android:layout_width="288dp"
+        android:layout_height="271dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/vxod"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginStart="26dp"
+        android:text="Вход через почту"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:fontFamily="@font/montserrat_light"
+        android:textSize="12sp"
+        android:layout_marginStart="26dp"
+        android:text="Мы проверим наличие у вас учетной записи. Если \nучетной записи у вас нет, мы создадим ее. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="32dp"
+        android:hint="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_input"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="32dp"
+        android:hint="Пароль"
+        android:layout_marginRight="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_input"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/property_1_2v"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:fontFamily="@font/montserrat_light"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Забыли пaроль?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/next_registration_button"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:textSize="20sp"
+        android:text="Продолжить"
+        android:layout_marginTop="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="283dp"
+        android:layout_height="52dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

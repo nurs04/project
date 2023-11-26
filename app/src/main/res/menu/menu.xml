@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Kaskelen"
+        android:title="Kaskelen" />
+    <item
+        android:id="@+id/Almaty"
+        android:title="Almaty" />
+    <item
+        android:id="@+id/Astana"
+        android:title="Astana" />
+    <item
+        android:id="@+id/Aqtau"
+        android:title="Aqtau" />
+    <item
+        android:id="@+id/Shamalgan"
+        android:title="Shamalgan" />
+    <item
+        android:id="@+id/Shymkent"
+        android:title="Shymkent" />
+</menu>

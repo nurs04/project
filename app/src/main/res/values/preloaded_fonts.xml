@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_extrabold</item>
+        <item>@font/montserrat_light</item>
+        <item>@font/montserrat_medium</item>
+        <item>@font/playball</item>
+        <item>@font/prompt_extrabold</item>
+        <item>@font/ranchers</item>
+        <item>@font/sarina</item>
+    </array>
+</resources>
